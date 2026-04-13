@@ -2,9 +2,12 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+
+    <!-- 🔥 SOLUCIÓN CELULAR -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Mi portfolio</title>
 
-    
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
 
     <style>
@@ -16,7 +19,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
         }
 
         .card {
@@ -25,7 +28,8 @@
             border-radius: 20px;
             text-align: center;
             backdrop-filter: blur(10px);
-            width: 300px;
+            width: 90%;
+            max-width: 350px;
             box-shadow: 0 0 20px rgba(0,0,0,0.3);
         }
 
@@ -47,12 +51,12 @@
         }
 
         .links a {
-            display: inline-block;
-            margin: 10px 5px;
+            display: block;
+            margin: 10px 0;
             text-decoration: none;
             color: white;
             background: #6c63ff;
-            padding: 8px 12px;
+            padding: 10px;
             border-radius: 10px;
             transition: 0.3s;
         }
@@ -62,6 +66,7 @@
         }
     </style>
 </head>
+
 <body>
 
     <div class="card">
@@ -73,48 +78,9 @@
         <p>📧 facuugiorlando@gmail.com</p>
 
         <div class="links">
-            <a href= "https://www.instagram.com/facuugior.dng/">
-    <style>
-  .boton-transparente {
-    background: none;
-    border: none;/* Quita el color de fondo */ /* Opcional: añade un borde para que se vea */
-    color: white;            /* Color del texto */
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-</style>
-
-<button class="boton-transparente">INSTAGRAM</button>
-
-</a>
-            <a href= https://kick.com/facuugiordng">
-    <style>
-  .boton-transparente {
-    background: none;
-    border: none;/* Quita el color de fondo */ /* Opcional: añade un borde para que se vea */
-    color: white;            /* Color del texto */
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-</style>
-
-<button class="boton-transparente">KICK</button>
-
-</a>
-            <a href= "https://www.youtube.com/@facuugiorDNG">
-    <style>
-  .boton-transparente {
-    background: none;
-    border: none;/* Quita el color de fondo */ /* Opcional: añade un borde para que se vea */
-    color: white;            /* Color del texto */
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-</style>
-
-<button class="boton-transparente">YOUTUBE</button>
-
-</a>
+            <a href="https://www.instagram.com/facuugior.dng/" target="_blank">INSTAGRAM</a>
+            <a href="https://kick.com/facuugiordng" target="_blank">KICK</a>
+            <a href="https://www.youtube.com/@facuugiorDNG" target="_blank">YOUTUBE</a>
         </div>
     </div>
 
